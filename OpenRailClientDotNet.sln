@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0B3CEA9-9C51-4A30-9D11-C54BF35D7850}"
+	ProjectSection(SolutionItems) = preProject
+		ExampleDarwinPushPortClient.png = ExampleDarwinPushPortClient.png
+		ExampleNetworkRailOpenDataClient.png = ExampleNetworkRailOpenDataClient.png
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalDarwinPushPortClient", "MinimalDarwinPushPortClient\MinimalDarwinPushPortClient.csproj", "{B03ABE53-3B36-411D-BA81-0B8A5C303FFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleDarwinPushPortClient", "ExampleDarwinPushPortClient\ExampleDarwinPushPortClient.csproj", "{A4C7EF0D-2E26-4C5A-9DF0-D5EC2DEDB2E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleNetworkRailOpenDataClient", "ExampleNetworkRailOpenDataClient\ExampleNetworkRailOpenDataClient.csproj", "{BAC67B5D-51DA-44BD-B802-11B3F8D24E95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalNetworkRailOpenDataClient", "MinimalNetworkRailOpenDataClient\MinimalNetworkRailOpenDataClient.csproj", "{31E01223-D342-46FD-B2D3-D6AA5B614AA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B03ABE53-3B36-411D-BA81-0B8A5C303FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03ABE53-3B36-411D-BA81-0B8A5C303FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03ABE53-3B36-411D-BA81-0B8A5C303FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03ABE53-3B36-411D-BA81-0B8A5C303FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C7EF0D-2E26-4C5A-9DF0-D5EC2DEDB2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C7EF0D-2E26-4C5A-9DF0-D5EC2DEDB2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C7EF0D-2E26-4C5A-9DF0-D5EC2DEDB2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C7EF0D-2E26-4C5A-9DF0-D5EC2DEDB2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC67B5D-51DA-44BD-B802-11B3F8D24E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC67B5D-51DA-44BD-B802-11B3F8D24E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC67B5D-51DA-44BD-B802-11B3F8D24E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC67B5D-51DA-44BD-B802-11B3F8D24E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E01223-D342-46FD-B2D3-D6AA5B614AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E01223-D342-46FD-B2D3-D6AA5B614AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E01223-D342-46FD-B2D3-D6AA5B614AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E01223-D342-46FD-B2D3-D6AA5B614AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE4F9571-B1F9-4961-B864-6835C7CB1514}
+	EndGlobalSection
+EndGlobal
