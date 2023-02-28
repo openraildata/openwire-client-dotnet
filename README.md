@@ -36,6 +36,12 @@ Obtaining Apache NMS Libraries
 
 The examples all connect to the messaging platforms using the .NET Apache NMS assemblies.  These are not included in the repo.  After opening the solution/projects in Visual Studio 2022 you can download/restore the assemblies using NuGet.
 
+Can I use this code with .NET Framework?
+----------------------------------------
+
+The example projects are based on .NET 6 - i.e. .NET Core.  For the most part, the code could be used in a project based on the older .NET Framework.  
+A few small syntax changes may be needed, e.g. removing the nullable declarations so `private string? msText = null;` becomes `private string msText = null;`.  
+
 Minimal Examples
 ----------------
 
